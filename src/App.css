@@ -1,0 +1,102 @@
+/* App.css */
+
+/* Container chính */
+.container {
+  padding: 40px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Tiêu đề chính */
+h3 {
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Đoạn văn mô tả câu hỏi */
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Tiêu đề "Words to drag" */
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Phần tử kéo thả từ */
+.drag-word {
+  padding: 8px 16px;
+  margin: 4px;
+  cursor: move;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.drag-word.default {
+  color: black;
+  background-color: #5bc0de;
+  border: 2px solid #337ab7;
+}
+
+.drag-word.red {
+  color: white;
+  background-color: #f0ad4e;
+  border: 2px solid red;
+}
+
+/* Ô trống để điền từ */
+.drop-blank {
+  display: inline-block;
+  width: 120px;
+  padding: 12px;
+  margin: 0 8px;
+  text-align: center;
+  border: 2px dashed #cccccc;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.drop-blank.filled {
+  color: #28a745;
+}
+
+.drop-blank input {
+  text-align: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 6px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #495057;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+/* Nút Submit */
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
